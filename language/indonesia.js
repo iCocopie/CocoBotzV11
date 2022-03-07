@@ -2,73 +2,73 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Chottomatte Kudasai~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done~`
 }
 
 exports.err = () => {
     return `⚠️ Fitur Sedang Error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link Error`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Silahkan Pilih Media Yang Ijgin Kamu Download`
 }
 exports.replyImg = (prefix, command) => {
     return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format Salah ❎ Silakan Cek Cara Penggunaan Di *${prefix}menu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ Harap Masukkan Pesan Yang Ingin Disampaikan!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* Tidak Terdaftar Di *${prefix}menu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command Ini Hanya Dapat Digunakan Oleh Owner`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅ Done, Owner ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Command Ini Hanya Bisa Digunakan Di Dalam Grup!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Command Ini Hanya Bisa Digunakan Oleh Admin Grup!`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `Code Invalid!`
 }
 
 exports.listBlock = (blockNumber) => {
     return `*── 「 HALL OF SHAME 」 ──*
     
-Total diblokir: *${blockNumber.length}* user\n`
+Total Diblokir : *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ User Bukan Seorang Admin! ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ Tidak Dapat Mem-Promote User Yang Merupakan Admin!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan Bot Sebagai Admin Terlebih Dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -78,23 +78,45 @@ Terima kasih telah melapor, laporanmu akan kami segera terima.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `Ukuran File Terlalu Besar!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", Bukan Angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+	return`Hai Kak *${pushname}* 👋 Selamat ${salam}.
+❏ 🤖️ *BOT INFO*
+🤾‍♂️ Bot Name : *CocoBotz-MD*
+🧾 Mode : Multi Mode
+⁉️ Prefix : Multi Prefix
+🪀 WhatsApp Version : 2.21.24.20
+💻 Platform : Linux
+🌏 Browser : Chrome
+🌐 Server : Baileys
+📥 Database : *Lib 4.0.0*     
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu CocoBotz-MD :*
+
+╭─❒ 「 Game Menu 」
+├ ${prefix}kuismath
+├ ${prefix}tebak gambar
+├ ${prefix}tebak kata
+├ ${prefix}tebak bendera
+├ ${prefix}tebak kalimat
+├ ${prefix}tebak siapa
+├ ${prefix}tebak kabupaten
+├ ${prefix}tebak kimia
+├ ${prefix}tebak lirik
+├ ${prefix}tebak tebakan
+├ ${prefix}tekateki
+├ ${prefix}susunkata
+╰❒ ${prefix}caklontong
+
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -167,17 +189,20 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
 
+
 ╭─❒ 「 Anime 」 
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
 
+
 ╭─❒ 「 Tag 」 
 ├ ${prefix}stickertag
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
+
 
 ╭─❒ 「 Stalking 」 
 ├ ${prefix}igstalk [username]
@@ -325,6 +350,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
 
+
 ╭─❒ 「 Random Anime 」
 ├ ${prefix}loli
 ├ ${prefix}neko
@@ -358,85 +384,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
 
-╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
 
 ╭─❒ 「 Textpro Menu 」
 ├ ${prefix}halloween2 text|text2
@@ -630,13 +577,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}memegen [text|text]
 ╰❒
 
-╭─❒ 「 Game Menu 」
-├ ${prefix}kuismath
-├ ${prefix}tebak [option]
-├ ${prefix}tekateki
-├ ${prefix}susunkata
-╰❒ ${prefix}caklontong
-
 
 ╭─❒ 「 Asupan Menu 」
 ├ ${prefix}chika
@@ -662,6 +602,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}ukhty
 ╰❒ ${prefix}syifa
 
+
 ╭─❒ 「 Telegram Sticker 」
 ├ ${prefix}awoawo
 ├ ${prefix}benedict
@@ -684,7 +625,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
-,
+
+
 ╭─❒ 「 Random Cewe 」
 ├ ${prefix}china 
 ├ ${prefix}indonesia 
@@ -698,8 +640,9 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
 
+
 ╭─❒ 「 TqTo 」 
-├ My God
+├ Allah SWT
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
@@ -708,6 +651,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├ Cocopie
 ├ Penyedia Module
 ╰❒ And All Support
     `
@@ -751,37 +695,36 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 L𝗎𝗉𝖺 In𝗍𝗋𝗈 K𝖺𝗄 🤗
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├ 𝖴𝗆𝗎𝗋 :
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+╰❒ Jangan Lupa 𝖯𝖺𝗍𝗎𝗁𝗂 R𝗎𝗅𝖾𝗌 Gr𝗎𝗉 Y𝖺 K𝖺k ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
-Goodbye`
+	return`Yah Kok Out 😣
+Sayonara`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Recode : https://github.com/iCocopie/CocoBotzV11
 `
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-
+Dana : 0899-2029-499
+Gopay : 0899-2029-499
+Saweria : https://saweria.co/Cocopie
+Pulsa : 0895-3544-37300
 Thanks!
 
-Contact person Owner:
+Contact Owner:
 wa.me/${ownernomer}
 
     `
@@ -1040,85 +983,7 @@ exports.ranime = (prefix) =>{
 }
 
 exports.nsfw = (prefix) =>{
-	return`╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
+	return`Hayoo🗿
 `
 }
 
@@ -1323,7 +1188,15 @@ return`╭─❒ 「 Others 」
 exports.game = (prefix) =>{
 return`╭─❒ 「 Game Menu 」
 ├ ${prefix}kuismath
-├ ${prefix}tebak [option]
+├ ${prefix}tebak gambar
+├ ${prefix}tebak kata
+├ ${prefix}tebak bendera
+├ ${prefix}tebak kalimat
+├ ${prefix}tebak siapa
+├ ${prefix}tebak kabupaten
+├ ${prefix}tebak kimia
+├ ${prefix}tebak lirik
+├ ${prefix}tebak tebakan
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
@@ -1373,7 +1246,7 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├ My God
+├ Allah SWT
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
@@ -1382,6 +1255,7 @@ exports.tqto = () =>{
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├ Cocopie
 ├ Penyedia Module
 ╰❒ And All Support
 `
