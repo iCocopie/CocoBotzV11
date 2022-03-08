@@ -180,16 +180,16 @@ if (!user) continue
 let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
-reply(`Jangan tag dia!
-Dia sedang AFK ${reason ? '\nReason : ' + reason : 'Reason : Nothing'}
-Waktu : ${clockString(new Date - afkTime)}
+reply(`「 AFK MODE 」
+Dont Tag Him, He Is In AFK Mode ${reason ? '\nWith Reason : ' + reason : 'With Reason : Nothing'}
+Since : ${clockString(new Date - afkTime)}
 `.trim())
 }
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
-Selama ${clockString(new Date - user.afkTime)}
+「 AFK MODE 」\nYou‘ve Stop AFK${user.afkReason ? ' After ' + user.afkReason : ''}
+Since : ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
 user.afkReason = ''
