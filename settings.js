@@ -20,7 +20,7 @@ global.available = false //status online (online)
 // Other
 global.botname = "CocoBotz-MD" //namabot kalian
 global.ownername= "Cocopie" //nama kalian
-global.myweb ="https://api-alphabot.herokuapp.com/" //bebas asal jan hapus
+global.myweb ="https://api-cocopie.herokuapp.com/" //bebas asal jan hapus
 global.youtube = "https://www.youtube.com/channel/UC8L4rZWtdd4fXIkkK5hzGVQ" //bebas asal jan hapus
 global.github = "https://github.com/iCocopie" //bebas
 global.email = "ryzeengtps@gmail.com" //bebas
