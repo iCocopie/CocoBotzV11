@@ -364,92 +364,91 @@ ${prefix}zodiak
 ${prefix}shio [query]
 
 
-╭─❒ 「 Others 」
-├ ${prefix}afk [reason]
-├ ${prefix}translate kode_bahasa text
-├ ${prefix}kalkulator [query]
-├ ${prefix}smeme [text]
-├ ${prefix}smeme2 [text|text]
-├ ${prefix}memegen [text|text]
-╰❒
+ 「 Others 」
+${prefix}afk [reason]
+${prefix}translate kode_bahasa text
+${prefix}kalkulator [query]
+${prefix}smeme [text]
+${prefix}smeme2 [text|text]
+${prefix}memegen [text|text]
 
 
-╭─❒ 「 Asupan Menu 」
-├ ${prefix}chika
-├ ${prefix}delvira
-├ ${prefix}ayu
-├ ${prefix}bunga
-├ ${prefix}aura
-├ ${prefix}nisa
-├ ${prefix}ziva
-├ ${prefix}yana
-├ ${prefix}viona
-├ ${prefix}syania
-├ ${prefix}riri
-├ ${prefix}syifa
-├ ${prefix}mama_gina
-├ ${prefix}alcakenya
-├ ${prefix}mangayutri
-├ ${prefix}rikagusriani
-├ ${prefix}asupan
-├ ${prefix}bocil
-├ ${prefix}geayubi
-├ ${prefix}santuy
-├ ${prefix}ukhty
-╰❒ ${prefix}syifa
+ 「 Asupan Menu 」
+${prefix}chika
+${prefix}delvira
+${prefix}ayu
+${prefix}bunga
+${prefix}aura
+${prefix}nisa
+${prefix}ziva
+${prefix}yana
+${prefix}viona
+${prefix}syania
+${prefix}riri
+${prefix}syifa
+${prefix}mama_gina
+${prefix}alcakenya
+${prefix}mangayutri
+${prefix}rikagusriani
+${prefix}asupan
+${prefix}bocil
+${prefix}geayubi
+${prefix}santuy
+${prefix}ukhty
+${prefix}syifa
 
 
-╭─❒ 「 Telegram Sticker 」
-├ ${prefix}awoawo
-├ ${prefix}benedict
-├ ${prefix}chat
-├ ${prefix}dbfly
-├ ${prefix}dino_kuning
-├ ${prefix}doge
-├ ${prefix}gojosatoru
-├ ${prefix}hope_boy
-├ ${prefix}jisoo
-├ ${prefix}kr_robot
-├ ${prefix}kucing
-├ ${prefix}lonte
-├ ${prefix}manusia_lidi
-├ ${prefix}menjamet
-├ ${prefix}meow
-├ ${prefix}nicholas
-├ ${prefix}patrick
-├ ${prefix}popoci
-├ ${prefix}sponsbob
-├ ${prefix}kawan_sponsbob
-╰❒ ${prefix}tyni
+ 「 Telegram Sticker 」
+${prefix}awoawo
+${prefix}benedict
+${prefix}chat
+${prefix}dbfly
+${prefix}dino_kuning
+${prefix}doge
+${prefix}gojosatoru
+${prefix}hope_boy
+${prefix}jisoo
+${prefix}kr_robot
+${prefix}kucing
+${prefix}lonte
+${prefix}manusia_lidi
+${prefix}menjamet
+${prefix}meow
+${prefix}nicholas
+${prefix}patrick
+${prefix}popoci
+${prefix}sponsbob
+${prefix}kawan_sponsbob
+${prefix}tyni
 
 
-╭─❒ 「 Random Cewe 」
-├ ${prefix}china 
-├ ${prefix}indonesia 
-├ ${prefix}malaysia 
-├ ${prefix}thailand 
-├ ${prefix}korea 
-├ ${prefix}japan 
-├ ${prefix}vietnam 
-├ ${prefix}jenni 
-├ ${prefix}jiso 
-├ ${prefix}lisa  
-╰❒ ${prefix}rose
+ 「 Random Cewe 」
+${prefix}china 
+${prefix}indonesia 
+${prefix}malaysia 
+${prefix}thailand 
+${prefix}korea 
+${prefix}japan 
+${prefix}vietnam 
+${prefix}jenni 
+${prefix}jiso 
+${prefix}lisa  
+${prefix}rose
 
 
-╭─❒ 「 TqTo 」 
-├ Allah SWT
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Cocopie
-├ Penyedia Module
-╰❒ And All Support
+ 「 TqTo 」 
+Allah SWT
+My Parents
+Fatih A.
+Ferdi
+DikaArdnt
+Mhankbarbar
+Nurutomo
+Rashid
+ZeeoneOfc
+Cocopie
+Penyedia Module
+And All Support
     `
 }
 
@@ -486,7 +485,7 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan CocoBotz
 😖🙏
 `
 }
@@ -527,259 +526,268 @@ wa.me/${ownernomer}
 }
 
 exports.info = (prefix) =>{
-	return`╭─❒ 「 Bot Info 」 
-├ ${prefix}owner
-├ ${prefix}rules
-├ ${prefix}sc
-├ ${prefix}ping
-├ ${prefix}runtime
-├ ${prefix}botstatus
-╰❒ ${prefix}donate
+	return` 「 Bot Info 」 
+${prefix}owner
+${prefix}rules
+${prefix}sc
+${prefix}ping
+${prefix}runtime
+${prefix}botstatus
+${prefix}donate
 `}
 
 exports.ownermenu = (prefix) =>{
-return`╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
-├ ${prefix}setmenu [query]
-├ ${prefix}setmenu templateLocation
-├ ${prefix}setmenu templateTenor
-├ ${prefix}setmenu katalog
-├ ${prefix}setmenu katalog2
-├ ${prefix}setmenu list
-├ ${prefix}setwm packname|author
-├ ${prefix}sendsesi
-├ ${prefix}listpc
-├ ${prefix}listgc
-├ ${prefix}broadcast [text]
-├ ${prefix}bc [text]
-├ ${prefix}bcgc [text]
-├ ${prefix}nsfw [on/off]
-├ ${prefix}autorespond [on/off]
-├ ${prefix}antiviewonce [on/off]
-├ ${prefix}join [link]
-├ ${prefix}self
-├ ${prefix}public [only bot]
-├ ${prefix}del [pesan bot]
-╰❒ ${prefix}setppbot [reply image]
+return` 「 Owner 」 
+< evaluate
+> evaluate
+$ exec
+=> exec
+${prefix}setmenu [query]
+${prefix}setmenu templateLocation
+${prefix}setmenu templateTenor
+${prefix}setmenu katalog
+${prefix}setmenu katalog2
+${prefix}setmenu list
+${prefix}setwm packname|author
+${prefix}sendsesi
+${prefix}listpc
+${prefix}listgc
+${prefix}broadcast [text]
+${prefix}bc [text]
+${prefix}bcgc [text]
+${prefix}nsfw [on/off]
+${prefix}autorespond [on/off]
+${prefix}antiviewonce [on/off]
+${prefix}join [link]
+${prefix}self
+${prefix}public [only bot]
+${prefix}del [reply pesan bot]
+${prefix}setppbot [reply image]
 `}
 
 exports.database = (prefix) =>{
-	return`╭─❒ 「 Database 」 
-├ ${prefix}setcmd [reply stiker]
-├ ${prefix}delcmd [reply stiker]
-├ ${prefix}listcmd
-├ ${prefix}absen
-├ ${prefix}cekabsen
-├ ${prefix}deleteabsen
-├ ${prefix}absenstart
-├ ${prefix}addmsg [nama file]
-├ ${prefix}getmsg [nama file]
-├ ${prefix}listmsg
-╰❒ ${prefix}delmsg [nama file]
+	return` 「 Database 」 
+${prefix}setcmd [reply stiker]
+${prefix}delcmd [reply stiker]
+${prefix}listcmd
+${prefix}absen
+${prefix}cekabsen
+${prefix}deleteabsen
+${prefix}absenstart
+${prefix}addmsg [nama file]
+${prefix}getmsg [nama file]
+${prefix}listmsg
+${prefix}delmsg [nama file]
 `}
 
 exports.group = (prefix) =>{
-	return`╭─❒ 「 Group 」 
-├ ${prefix}listonline
-├ ${prefix}sider
-├ ${prefix}wm packname|author
-├ ${prefix}infochat
-├ ${prefix}setdesk [text]
-├ ${prefix}setppgrup [reply image]
-├ ${prefix}antilink [on/off]
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}add [62***]
-├ ${prefix}kick @tag
-├ ${prefix}leave
-├ ${prefix}linkgc
-├ ${prefix}take packname|author
-├ ${prefix}group [open/close]
-├ ${prefix}tagall [text]
-╰❒ ${prefix}hidetag [text]
+	return` 「 Group 」 
+${prefix}listonline
+${prefix}sider
+${prefix}wm packname|author
+${prefix}infochat
+${prefix}setdesk [text]
+${prefix}setppgrup [reply image]
+${prefix}antilink [on/off]
+${prefix}revoke
+${prefix}leave
+${prefix}add [62***]
+${prefix}kick @tag
+${prefix}leave
+${prefix}linkgc
+${prefix}take packname|author
+${prefix}group [open/close]
+${prefix}tagall [text]
+${prefix}hidetag [text]
 `}
 
 exports.anime = (prefix) =>{
-	return`╭─❒ 「 Anime 」 
-├ ${prefix}quotesanime
-├ ${prefix}anime [query]
-├ ${prefix}manga [query]
-╰❒ ${prefix}character [query]
+	return` 「 Anime 」 
+${prefix}quotesanime
+${prefix}neko
+${prefix}waifu
+${prefix}shinobu
+${prefix}megumin
+${prefix}cry
+${prefix}anime [query]
+${prefix}manga [query]
+${prefix}character [query]
 `}
 
 exports.tag = (prefix) =>{
-	return`╭─❒ 「 Tag 」 
-├ ${prefix}stickertag
-├ ${prefix}videotag [query]
-├ ${prefix}vntag [query]
-╰❒ ${prefix}imagetag [query]
+	return` 「 Tag 」 
+${prefix}stickertag
+${prefix}videotag [query]
+${prefix}vntag [query]
+${prefix}imagetag [query]
 `}
 
 exports.stalk = (prefix) =>{
-	return`╭─❒ 「 Stalking 」 
-├ ${prefix}igstalk [username]
-├ ${prefix}ghstalk [username]
-╰❒ ${prefix}ytstalk [channel]
+	return` 「 Stalking 」 
+${prefix}igstalk [username]
+${prefix}ghstalk [username]
+${prefix}ytstalk [channel]
 `}
 
 exports.search = (prefix) =>{
-	return`╭─❒ 「 Search 」 
-├ ${prefix}ytsearch [query]
-├ ${prefix}wallpaper [query]
-├ ${prefix}wikimedia [query]
-├ ${prefix}hentai
-├ ${prefix}wattpad [query]
-├ ${prefix}webtoons [query]
-├ ${prefix}drakor [query]
-╰❒ ${prefix}pinterest [query]
+	return` 「 Search 」 
+${prefix}ytsearch [query]
+${prefix}wallpaper [query]
+${prefix}wikimedia [query]
+${prefix}hentai
+${prefix}wattpad [query]
+${prefix}webtoons [query]
+${prefix}drakor [query]
+${prefix}pinterest [query]
 `}
 
 exports.converter = (prefix) =>{
-	return`╭─❒ 「 Converter 」 
-├ ${prefix}toaudio [video]
-├ ${prefix}tomp3 [video]
-├ ${prefix}tovn [video]
-├ ${prefix}stiker [reply image]
-├ ${prefix}tourl [image/video]
-├ ${prefix}togif [sticker]
-├ ${prefix}tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
+	return` 「 Converter 」 
+${prefix}toaudio [video]
+${prefix}tomp3 [video]
+${prefix}tovn [video]
+${prefix}stiker [reply image]
+${prefix}tourl [image/video]
+${prefix}togif [sticker]
+${prefix}tomp4 [sticker]
+${prefix}toimg [reply sticker]
 `}
 
 exports.effect = (prefix) =>{
-	return`╭─❒ 「 Image Effect 」 
-├ ${prefix}wanted [reply image/stiker]
-├ ${prefix}utatoo [reply image/stiker]
-├ ${prefix}unsharpen [reply image/stiker]
-├ ${prefix}thanos [reply image/stiker]
-├ ${prefix}sniper [reply image/stiker]
-├ ${prefix}sharpen [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}scary [reply image/stiker]
-├ ${prefix}rip [reply image/stiker]
-├ ${prefix}redple [reply image/stiker]
-├ ${prefix}rejected [reply image/stiker]
-├ ${prefix}posterize [reply image/stiker]
-├ ${prefix}ps4 [reply image/stiker]
-├ ${prefix}pixelize [reply image/stiker]
-├ ${prefix}missionpassed [reply image/stiker]
-├ ${prefix}moustache [reply image/stiker]
-├ ${prefix}lookwhatkarenhave [reply image/stiker]
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}instagram [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}glitch [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}frame [reply image/stiker]
-├ ${prefix}fire [reply image/stiker]
-├ ${prefix}distort [reply image/stiker]
-├ ${prefix}dictator [reply image/stiker]
-├ ${prefix}deepfry [reply image/stiker]
-├ ${prefix}ddungeon [reply image/stiker]
-├ ${prefix}circle [reply image/stiker]
-├ ${prefix}challenger [reply image/stiker]
-├ ${prefix}burn [reply image/stiker]
-├ ${prefix}brazzers [reply image/stiker]
-╰❒ ${prefix}beautiful [reply image/stiker]
+	return` 「 Image Effect 」 
+${prefix}wanted [reply image/stiker]
+${prefix}utatoo [reply image/stiker]
+${prefix}unsharpen [reply image/stiker]
+${prefix}thanos [reply image/stiker]
+${prefix}sniper [reply image/stiker]
+${prefix}sharpen [reply image/stiker]
+${prefix}sepia [reply image/stiker]
+${prefix}scary [reply image/stiker]
+${prefix}rip [reply image/stiker]
+${prefix}redple [reply image/stiker]
+${prefix}rejected [reply image/stiker]
+${prefix}posterize [reply image/stiker]
+${prefix}ps4 [reply image/stiker]
+${prefix}pixelize [reply image/stiker]
+${prefix}missionpassed [reply image/stiker]
+${prefix}moustache [reply image/stiker]
+${prefix}lookwhatkarenhave [reply image/stiker]
+${prefix}jail [reply image/stiker]
+${prefix}invert [reply image/stiker]
+${prefix}instagram [reply image/stiker]
+${prefix}greyscale [reply image/stiker]
+${prefix}glitch [reply image/stiker]
+${prefix}gay [reply image/stiker]
+${prefix}frame [reply image/stiker]
+${prefix}fire [reply image/stiker]
+${prefix}distort [reply image/stiker]
+${prefix}dictator [reply image/stiker]
+${prefix}deepfry [reply image/stiker]
+${prefix}ddungeon [reply image/stiker]
+${prefix}circle [reply image/stiker]
+${prefix}challenger [reply image/stiker]
+${prefix}burn [reply image/stiker]
+${prefix}brazzers [reply image/stiker]
+${prefix}beautiful [reply image/stiker]
 `}
 
 //
 exports.effect2 = (prefix) =>{
-	return`╭─❒ 「 Sticker Effect 」 
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}red [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}bloo [reply image/stiker]
-├ ${prefix}blue [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}green [reply image/stiker]
-├ ${prefix}glass [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}blurple [reply image/stiker]
-├ ${prefix}blurple2 [reply image/stiker]
-├ ${prefix}wasted [reply image/stiker]
-├ ${prefix}passed [reply image/stiker]
-├ ${prefix}triggered [reply image/stiker]
-├ ${prefix}comrade [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}threshold [reply image/stiker]
-├ ${prefix}brightness [reply image/stiker]
-╰❒ ${prefix}invertgreyscale [reply image/stiker]
+	return` 「 Sticker Effect 」 
+${prefix}jail [reply image/stiker]
+${prefix}red [reply image/stiker]
+${prefix}gay [reply image/stiker]
+${prefix}bloo [reply image/stiker]
+${prefix}blue [reply image/stiker]
+${prefix}sepia [reply image/stiker]
+${prefix}green [reply image/stiker]
+${prefix}glass [reply image/stiker]
+${prefix}invert [reply image/stiker]
+${prefix}blurple [reply image/stiker]
+${prefix}blurple2 [reply image/stiker]
+${prefix}wasted [reply image/stiker]
+${prefix}passed [reply image/stiker]
+${prefix}triggered [reply image/stiker]
+${prefix}comrade [reply image/stiker]
+${prefix}greyscale [reply image/stiker]
+${prefix}threshold [reply image/stiker]
+${prefix}brightness [reply image/stiker]
+${prefix}invertgreyscale [reply image/stiker]
 `
 }
 
 exports.download = (prefix) =>{
-return`╭─❒ 「 Download 」 
-├ ${prefix}tiktok [link]
-├ ${prefix}tiktoknowm [link]
-├ ${prefix}tiktokwm [link]
-├ ${prefix}tiktokaudio [link]
-├ ${prefix}ytdl [link]
-├ ${prefix}play [query]
-├ ${prefix}ytmp3 [link]
-├ ${prefix}ytshortmp3 [link]
-├ ${prefix}ytmp4 [link]
-├ ${prefix}ytshorts [link]
-├ ${prefix}facebook [link]
-├ ${prefix}facebooksd [link]
-├ ${prefix}facebookhd [link]
-├ ${prefix}fbaudio [link]
-├ ${prefix}igstory [username]
-├ ${prefix}igdl [link]
-├ ${prefix}igphoto [link]
-├ ${prefix}igvideo [link]
-├ ${prefix}igreels [link]
-├ ${prefix}igtv [link]
-├ ${prefix}soundcloud [link]
-├ ${prefix}gitclone [link repo]
-├ ${prefix}gitrepo [username repo branch]
-├ ${prefix}mediafire [link]
-╰❒ ${prefix}twitter link
+return` 「 Download 」 
+${prefix}tiktok [link]
+${prefix}tiktoknowm [link]
+${prefix}tiktokwm [link]
+${prefix}tiktokaudio [link]
+${prefix}ytdl [link]
+${prefix}play [query]
+${prefix}ytmp3 [link]
+${prefix}ytshortmp3 [link]
+${prefix}ytmp4 [link]
+${prefix}ytshorts [link]
+${prefix}facebook [link]
+${prefix}facebooksd [link]
+${prefix}facebookhd [link]
+${prefix}fbaudio [link]
+${prefix}igstory [username]
+${prefix}igdl [link]
+${prefix}igphoto [link]
+${prefix}igvideo [link]
+${prefix}igreels [link]
+${prefix}igtv [link]
+${prefix}soundcloud [link]
+${prefix}gitclone [link repo]
+${prefix}gitrepo [username repo branch]
+${prefix}mediafire [link]
+${prefix}twitter link
 `
 }
 
 exports.ranime = (prefix) =>{
-	return`╭─❒ 「 Random Anime 」
-├ ${prefix}loli
-├ ${prefix}neko
-├ ${prefix}waifu
-├ ${prefix}shinobu
-├ ${prefix}megumin
-├ ${prefix}bully
-├ ${prefix}cuddle
-├ ${prefix}cry
-├ ${prefix}hug
-├ ${prefix}awoo
-├ ${prefix}kiss
-├ ${prefix}lick
-├ ${prefix}pat
-├ ${prefix}smug
-├ ${prefix}bonk
-├ ${prefix}yeet
-├ ${prefix}blush
-├ ${prefix}smile
-├ ${prefix}wave
-├ ${prefix}highfive
-├ ${prefix}handhold
-├ ${prefix}nom
-├ ${prefix}bite
-├ ${prefix}glomp
-├ ${prefix}slap
-├ ${prefix}kill
-├ ${prefix}happy
-├ ${prefix}wink
-├ ${prefix}poke
-├ ${prefix}dance
-╰❒ ${prefix}cringe
+	return` 「 Random Anime 」
+${prefix}loli
+${prefix}neko
+${prefix}waifu
+${prefix}shinobu
+${prefix}megumin
+${prefix}bully
+${prefix}cuddle
+${prefix}cry
+${prefix}hug
+${prefix}awoo
+${prefix}kiss
+${prefix}lick
+${prefix}pat
+${prefix}smug
+${prefix}bonk
+${prefix}yeet
+${prefix}blush
+${prefix}smile
+${prefix}wave
+${prefix}highfive
+${prefix}handhold
+${prefix}nom
+${prefix}bite
+${prefix}glomp
+${prefix}slap
+${prefix}kill
+${prefix}happy
+${prefix}wink
+${prefix}poke
+${prefix}dance
+${prefix}cringe
 `
 }
 
 exports.nsfw = (prefix) =>{
-	return`Hayoo🗿
+	return` 「 Halal Menu 」
+${prefix}alquran
+${prefix}juzamma
+${prefix}iqra
+${prefix}hadist
 `
 }
 
@@ -970,149 +978,146 @@ exports.textpro = (prefix) =>{
 
 
 exports.other = (prefix) =>{
-return`╭─❒ 「 Others 」
-├ ${prefix}ttp [text]
-├ ${prefix}attp [text]
-├ ${prefix}afk [reason]
-├ ${prefix}translate kode_bahasa text
-├ ${prefix}kalkulator [query]
-├ ${prefix}smeme [text]
-├ ${prefix}smeme2 [text|text]
-╰❒ ${prefix}memegen [text|text]
+return` 「 Others 」
+${prefix}afk [reason]
+${prefix}translate kode_bahasa text
+${prefix}kalkulator [query]
+${prefix}smeme [text]
+${prefix}smeme2 [text|text]
+${prefix}memegen [text|text]
 `
 }
 exports.game = (prefix) =>{
-return`╭─❒ 「 Game Menu 」
-├ ${prefix}kuismath
-├ ${prefix}tebak gambar
-├ ${prefix}tebak kata
-├ ${prefix}tebak bendera
-├ ${prefix}tebak kalimat
-├ ${prefix}tebak siapa
-├ ${prefix}tebak kabupaten
-├ ${prefix}tebak kimia
-├ ${prefix}tebak lirik
-├ ${prefix}tebak tebakan
-├ ${prefix}tekateki
-├ ${prefix}susunkata
-╰❒ ${prefix}caklontong
+return` 「 Game Menu 」
+${prefix}suitpvp
+${prefix}tebak gambar
+${prefix}tebak kata
+${prefix}tebak bendera
+${prefix}tebak kalimat
+${prefix}tebak siapa
+${prefix}tebak kabupaten
+${prefix}tebak kimia
+${prefix}tebak lirik
+${prefix}tebak tebakan
+${prefix}tekateki
+${prefix}susunkata
+${prefix}caklontong
 `
 }
 exports.asupan = (prefix) =>{
-return`╭─❒ 「 Asupan Menu 」
-├ ${prefix}chika
-├ ${prefix}delvira
-├ ${prefix}ayu
-├ ${prefix}bunga
-├ ${prefix}aura
-├ ${prefix}nisa
-├ ${prefix}ziva
-├ ${prefix}yana
-├ ${prefix}viona
-├ ${prefix}syania
-├ ${prefix}riri
-├ ${prefix}syifa
-├ ${prefix}mama_gina
-├ ${prefix}alcakenya
-├ ${prefix}mangayutri
-├ ${prefix}rikagusriani
-├ ${prefix}asupan
-├ ${prefix}bocil
-├ ${prefix}geayubi
-├ ${prefix}santuy
-├ ${prefix}ukhty
-╰❒ ${prefix}syifa
+return` 「 Asupan Menu 」
+${prefix}chika
+${prefix}delvira
+${prefix}ayu
+${prefix}bunga
+${prefix}aura
+${prefix}nisa
+${prefix}ziva
+${prefix}yana
+${prefix}viona
+${prefix}syania
+${prefix}riri
+${prefix}syifa
+${prefix}mama_gina
+${prefix}alcakenya
+${prefix}mangayutri
+${prefix}rikagusriani
+${prefix}asupan
+${prefix}bocil
+${prefix}geayubi
+${prefix}santuy
+${prefix}ukhty
 `
 }
 exports.cecan = (prefix) =>{
-return`╭─❒ 「 Random Cewe 」
-├ ${prefix}china 
-├ ${prefix}indonesia 
-├ ${prefix}malaysia 
-├ ${prefix}thailand 
-├ ${prefix}korea 
-├ ${prefix}japan 
-├ ${prefix}vietnam 
-├ ${prefix}jenni 
-├ ${prefix}jiso 
-├ ${prefix}lisa  
-╰❒ ${prefix}rose
+return` 「 Random Cewe 」
+${prefix}china 
+${prefix}indonesia 
+${prefix}malaysia 
+${prefix}thailand 
+${prefix}korea 
+${prefix}japan 
+${prefix}vietnam 
+${prefix}jenni 
+${prefix}jiso 
+${prefix}lisa  
+${prefix}rose
 `
 }
 
 exports.tqto = () =>{
-	return`╭─❒ 「 TqTo 」 
-├ Allah SWT
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Cocopie
-├ Penyedia Module
-╰❒ And All Support
+	return` 「 TqTo 」 
+Allah SWT
+My Parents
+Fatih A.
+Ferdi
+DikaArdnt
+Mhankbarbar
+Nurutomo
+Rashid
+ZeeoneOfc
+Cocopie
+Penyedia Module
+And All Support
 `
 }
 
 exports.primbonmenu = (prefix) =>{
-	return`╭─❒ 「 Primbon 」
-├ ${prefix}nomorhoki 887435047326
-├ ${prefix}artimimpi [query]
-├ ${prefix}artinama [query]
-├ ${prefix}ramaljodoh
-├ ${prefix}ramaljodohbali
-├ ${prefix}suamiistri
-├ ${prefix}ramalcinta
-├ ${prefix}cocoknama
-├ ${prefix}pasangan
-├ ${prefix}jadiannikah
-├ ${prefix}sifatusaha
-├ ${prefix}rezeki
-├ ${prefix}pekerjaan
-├ ${prefix}nasib
-├ ${prefix}penyakit
-├ ${prefix}tarot
-├ ${prefix}fengshui
-├ ${prefix}haribaik
-├ ${prefix}harisangar
-├ ${prefix}harisial
-├ ${prefix}nagahari
-├ ${prefix}arahrezeki
-├ ${prefix}peruntungan
-├ ${prefix}weton
-├ ${prefix}karakter
-├ ${prefix}keberuntungan
-├ ${prefix}memancing
-├ ${prefix}masasubur
-├ ${prefix}zodiak 
-╰❒ ${prefix}shio [query]
+	return` 「 Primbon 」
+${prefix}nomorhoki 887435047326
+${prefix}artimimpi [query]
+${prefix}artinama [query]
+${prefix}ramaljodoh
+${prefix}ramaljodohbali
+${prefix}suamiistri
+${prefix}ramalcinta
+${prefix}cocoknama
+${prefix}pasangan
+${prefix}jadiannikah
+${prefix}sifatusaha
+${prefix}rezeki
+${prefix}pekerjaan
+${prefix}nasib
+${prefix}penyakit
+${prefix}tarot
+${prefix}fengshui
+${prefix}haribaik
+${prefix}harisangar
+${prefix}harisial
+${prefix}nagahari
+${prefix}arahrezeki
+${prefix}peruntungan
+${prefix}weton
+${prefix}karakter
+${prefix}keberuntungan
+${prefix}memancing
+${prefix}masasubur
+${prefix}zodiak 
+${prefix}shio [query]
 `
 }
 
 exports.stcmenu = (prefix) =>{
-	return`╭─❒ 「 Telegram Sticker 」
-├ ${prefix}awoawo
-├ ${prefix}benedict
-├ ${prefix}chat
-├ ${prefix}dbfly
-├ ${prefix}dino_kuning
-├ ${prefix}doge
-├ ${prefix}gojosatoru
-├ ${prefix}hope_boy
-├ ${prefix}jisoo
-├ ${prefix}kr_robot
-├ ${prefix}kucing
-├ ${prefix}lonte
-├ ${prefix}manusia_lidi
-├ ${prefix}menjamet
-├ ${prefix}meow
-├ ${prefix}nicholas
-├ ${prefix}patrick
-├ ${prefix}popoci
-├ ${prefix}sponsbob
-├ ${prefix}kawan_sponsbob
-╰❒ ${prefix}tyni
+	return` 「 Telegram Sticker 」
+${prefix}awoawo
+${prefix}benedict
+${prefix}chat
+${prefix}dbfly
+${prefix}dino_kuning
+${prefix}doge
+${prefix}gojosatoru
+${prefix}hope_boy
+${prefix}jisoo
+${prefix}kr_robot
+${prefix}kucing
+${prefix}lonte
+${prefix}manusia_lidi
+${prefix}menjamet
+${prefix}meow
+${prefix}nicholas
+${prefix}patrick
+${prefix}popoci
+${prefix}sponsbob
+${prefix}kawan_sponsbob
+${prefix}tyni
 `}
